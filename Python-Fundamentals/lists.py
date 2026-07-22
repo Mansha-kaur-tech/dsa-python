@@ -81,3 +81,12 @@ print(mix)
 print(len(list1))
 print(len(names))
 print(len(mix))
+
+# ---------------------------------------
+# 9. sort()
+# ---------------------------------------
+
+list1.sort()
+names.sort()    
+print(list1)
+print(names)
