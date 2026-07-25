@@ -90,3 +90,14 @@ list1.sort()
 names.sort()    
 print(list1)
 print(names)
+
+# ---------------------------------------
+# 10. reverse()
+# ---------------------------------------
+
+list1.reverse()
+names.reverse()
+print(list1)
+print(names)
+
+
