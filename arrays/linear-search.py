@@ -12,6 +12,7 @@ def linear_search(arr, target):
 # ------------------------------
 # Examples
 # ------------------------------
+
 print(linear_search([1, 2, 3, 4, 5], 3))  # returns 2)
 print()
 print(linear_search([1, 2, 3, 4, 5], 6))  # returns -1
