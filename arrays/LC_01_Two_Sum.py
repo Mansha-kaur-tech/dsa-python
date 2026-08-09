@@ -2,7 +2,7 @@
 # LeetCode 1 - Two Sum
 # --------------------------------------------
 
-def twosum(nums, target):
+def two_sum(nums, target):
     for i in range(len(nums)):
         for j in range(i + 1, len(nums)):
             if nums[i] + nums[j] == target:
@@ -13,10 +13,10 @@ def twosum(nums, target):
 # Examples
 # --------------------------------------------  
 
-print(twosum([2, 7, 11, 15], 9))  # returns [0, 1]
+print(two_sum([2, 7, 11, 15], 9))  # returns [0, 1]
 print()
-print(twosum([3, 2, 4], 6))  # returns [1, 2]
+print(two_sum([3, 2, 4], 6))  # returns [1, 2]
 print()
-print(twosum([3, 3], 6))  # returns [0, 1]
+print(two_sum([3, 3], 6))  # returns [0, 1]
 print()
-print(twosum([1, 2, 3, 4, 5], 10))  # returns []
+print(two_sum([1, 2, 3, 4, 5], 10))  # returns []
