@@ -28,4 +28,5 @@ print()
 print(binary_search(['a', 'b', 'c', 'd'], 'a'))  # returns 0
 print()
 arr = [7, 1, 3, 9, 5]
-print(binary_search(arr, 7))  # returns 2
+arr.sort()  # Sort the array before performing binary search
+print(binary_search(arr, 5)) # returns 2 (after sorting, the array becomes [1, 3, 5, 7, 9])
